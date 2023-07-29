@@ -74,7 +74,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (1x)</td>
-        <td>3,7%</td>
+        <td>4%</td>
         <th>${calculaCredito1x.innerHTML = `R$ ` + calculaCredito1x()}</th>
         <td>${calculaCredito1x.innerHTML = `R$ ` + calculaRecebaNoTotal1x()}</td>
         <td>${calculaCredito1x.innerHTML = `R$ ` + (calculaRecebaNoTotal1x() / 1).toFixed(2)}</td>
@@ -82,7 +82,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (2x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 2).toFixed(2)}</td>
@@ -90,7 +90,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (3x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 3).toFixed(2)}</td>
@@ -98,7 +98,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (4x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 4).toFixed(2)}</td>
@@ -106,7 +106,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (5x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 5).toFixed(2)}</td>
@@ -114,7 +114,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (6x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 6).toFixed(2)}</td>
@@ -122,7 +122,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (7x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 7).toFixed(2)}</td>
@@ -130,7 +130,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (8x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 8).toFixed(2)}</td>
@@ -138,7 +138,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (9x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 9).toFixed(2)}</td>
@@ -146,7 +146,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (10x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 10).toFixed(2)}</td>
@@ -154,7 +154,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
         <td>Crédito (11x)</td>
-        <td>4,9%</td>
+        <td>5%</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
         <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 11).toFixed(2)}</td>
@@ -162,7 +162,7 @@ function addTableOnDialog() {
     </tbody>
     <tbody>
     <td>Crédito (12x)</td>
-    <td>4,9%</td>
+    <td>5%</td>
     <td>${calculaCredito2xA12x.innerHTML = `R$ ` + calculaCredito2xA12x()}</td>
     <td>${calculaCredito2xA12x.innerHTML = `RS ` + calculaRecebaNoTotal2xA12x()}</td>
     <td>${calculaCredito2xA12x.innerHTML = `R$ ` + (calculaRecebaNoTotal2xA12x() / 12).toFixed(2)}</td>
