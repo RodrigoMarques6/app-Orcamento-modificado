@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App.Calculadora</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="div-header">
+        <h1 class="h1-header">Calculadora de orçamento</h1>
+      </div>
+    </header>
+    <main>
+
+      <div class="div-economico" id="div-economico">
+        <div class="div1-main">
+          <h2 class="h2-main">Plano econômico</h2>
+          <p class="p1-main">Nesse plano, você recebe mensalmente</p>
+        </div>
+        <div class="div2-main">
+          <label for="">
+            <legend class="legend-economico">Valor do projeto:</legend>
+            <input
+              type="number"
+              class="input-economico"
+              id="input-economico"
+              value=""
+            /><br />
+            <button class="btn-economico" id="btn-economico">Calcular
+              <div id="load" class="loader"></div>
+            </button>
+          </label>
+        </div>
+      </div>
+      <dialog class="dialog-economico" id="dialog-economico">
+        <div id="divAntesDaTable"></div>
+        <table class="table-dialog-economico" id="table-dialog-economico"></table>
+        <div class="divPaiDoDialogEconomico">
+          <div class="div1-dialog-economico" id="div1-dialog-economico"></div>
+          <div class="div2-dialog-economico" id="div2-dialog-economico"></div>
+        </div>
+
+      </dialog>
+      <dialog class="dialog-modelo-economico" id="dialog-modelo-economico">
+        <div class="div1-dialog-modelo-economico" id="div1-dialog-modelo-economico"></div>
+        <div class="div2-dialog-modelo-economico" id="div2-dialog-modelo-economico"></div>
+        <div class="div3-dialog-modelo-economico" id="div3-dialog-modelo-economico"></div>
+        <div class="div4-dialog-modelo-economico" id="div4-dialog-modelo-economico"></div>
+        <div class="div5-dialog-modelo-economico" id="div5-dialog-modelo-economico"></div>
+        <div class="div6-dialog-modelo-economico" id="div6-dialog-modelo-economico"></div>
+      </dialog>
+
+      <div class="div-antecipado">
+        <div class="div3-main">
+          <h2 class="h2-main" id="h2-main">Plano antecipado</h2>
+          <p class="p2-main">Nesse plano, você recebe no próximo dia útil</p>
+        </div>
+        <div class="div4-main">
+          <label for="">
+            <legend class="legend-antecipado">Valor do projeto:</legend>
+            <input
+              type="number"
+              class="input-antecipado"
+              id="input-antecipado"
+            /><br />
+            <button class="btn-antecipado" id="btn-antecipado">Calcular</button>
+          </label>
+        </div>
+      </div>
+      <dialog class="dialog-antecipado" id="dialog-antecipado"></dialog>
+
+    </main>
+    <footer>
+      
+    </footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
