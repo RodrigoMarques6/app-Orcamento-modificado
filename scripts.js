@@ -317,3 +317,15 @@ function valueInputEconomico() {
 function replaceToNumbers(num) {
     return num.replace('.', ',');
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    const welcomeDialog = document.getElementById('welcome-dialog');
+    const closeBtn = document.getElementById('close-welcome-btn');
+  
+    welcomeDialog.showModal();
+  
+    closeBtn.addEventListener('click', () => {
+      welcomeDialog.close();
+    });
+  });
+  
